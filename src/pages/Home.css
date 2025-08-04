@@ -1,0 +1,67 @@
+.home-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f8fb;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #003366;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ffcc00;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #003366;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #444;
+  margin: 16px 0 32px;
+}
+
+.cta-button {
+  background-color: #ffcc00;
+  color: #003366;
+  padding: 12px 24px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e6b800;
+}

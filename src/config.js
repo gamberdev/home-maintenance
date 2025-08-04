@@ -1,3 +1,2 @@
-export const apiUrl = process.env.REACT_APP_API_URL || "https://service-booking-platform.onrender.com";
+export const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:5000";
 console.log("API URL:", apiUrl);
-
